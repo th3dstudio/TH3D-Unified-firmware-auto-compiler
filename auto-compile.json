@@ -6,7 +6,7 @@
             "profile-name": "cr-10",
             "keyword": 
             [
-               {"find":"//#define CR10","replace":"#define CR10"}
+                {"find":"//#define CR10","replace":"#define CR10"}
             ]
         },
         {
@@ -30,7 +30,7 @@
             "profile-name": "cr-10-mini",
             "keyword": 
             [
-               {"find":"//#define CR10_MINI","replace":"#define CR10_MINI"}
+                {"find":"//#define CR10_MINI","replace":"#define CR10_MINI"}
             ]
         },
         {
@@ -54,7 +54,7 @@
             "profile-name": "cr-10-s4",
             "keyword": 
             [
-               {"find":"//#define CR10_S4","replace":"#define CR10_S4"}
+                {"find":"//#define CR10_S4","replace":"#define CR10_S4"}
             ]
         },
         {
@@ -78,7 +78,7 @@
             "profile-name": "cr-10-s5",
             "keyword": 
             [
-               {"find":"//#define CR10_S5","replace":"#define CR10_S5"}
+                {"find":"//#define CR10_S5","replace":"#define CR10_S5"}
             ]
         },
         {
@@ -102,7 +102,7 @@
             "profile-name": "cr-10s",
             "keyword": 
             [
-               {"find":"//#define CR10S","replace":"#define CR10S"}
+                {"find":"//#define CR10S","replace":"#define CR10S"}
             ]
         },
         {
@@ -126,7 +126,7 @@
             "profile-name": "cr-10s-mini",
             "keyword": 
             [
-               {"find":"//#define CR10S_MINI","replace":"#define CR10S_MINI"}
+                {"find":"//#define CR10S_MINI","replace":"#define CR10S_MINI"}
             ]
         },
         {
@@ -150,7 +150,7 @@
             "profile-name": "cr-10s-s4",
             "keyword": 
             [
-               {"find":"//#define CR10S_S4","replace":"#define CR10S_S4"}
+                {"find":"//#define CR10S_S4","replace":"#define CR10S_S4"}
             ]
         },
         {
@@ -174,7 +174,7 @@
             "profile-name": "cr-10s-s5",
             "keyword": 
             [
-               {"find":"//#define CR10S_S5","replace":"#define CR10S_S5"}
+                {"find":"//#define CR10S_S5","replace":"#define CR10S_S5"}
             ]
         },
         {
@@ -195,10 +195,10 @@
             ]
         },
 		{
-            "profile-name": "ender3"
+            "profile-name": "ender3",
             "keyword": 
             [
-               {"find":"//#define ENDER3","replace":"#define ENDER3"}
+                {"find":"//#define ENDER3","replace":"#define ENDER3"}
             ]
         },
         {
@@ -219,10 +219,10 @@
             ]
         },
 		{
-            "profile-name": "ender5"
+            "profile-name": "ender5",
             "keyword": 
             [
-               {"find":"//#define ENDER5","replace":"#define ENDER5"}
+                {"find":"//#define ENDER5","replace":"#define ENDER5"}
             ]
         },
         {
@@ -243,10 +243,10 @@
             ]
         },
 		{
-            "profile-name": "sv01"
+            "profile-name": "sv01",
             "keyword": 
             [
-               {"find":"//#define SOVOL_SV01","replace":"#define SOVOL_SV01"}
+                {"find":"//#define SOVOL_SV01","replace":"#define SOVOL_SV01"}
             ]
         },
         {
