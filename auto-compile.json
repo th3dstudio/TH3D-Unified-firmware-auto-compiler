@@ -3,18 +3,75 @@
     "compile-profile":
     [
         {
-            "profile-name": "ender-3",
+            "profile-name": "cr-10",
             "keyword": 
             [
-               {"find":"//#define ENDER3","replace":"#define ENDER3"}
+               {"find":"//#define CR10","replace":"#define CR10"}
             ]
         },
         {
-            "profile-name": "cr-10-ezabl-oem",
+            "profile-name": "cr-10-ezabl",
             "keyword": 
             [
                 {"find":"//#define CR10","replace":"#define CR10"},
                 {"find":"//#define CR10_OEM","replace":"#define CR10_OEM"}
+            ]
+        },
+        {
+            "profile-name": "cr-10-ezabl-onservo",
+            "keyword": 
+            [
+                {"find":"//#define CR10","replace":"#define CR10"},
+                {"find":"//#define CR10_OEM","replace":"#define CR10_OEM"},
+				{"find":"//#define V3_EZABL_ON_SERVO","replace":"#define V3_EZABL_ON_SERVO"}
+            ]
+        },
+		{
+            "profile-name": "cr-10-mini",
+            "keyword": 
+            [
+               {"find":"//#define CR10_MINI","replace":"#define CR10_MINI"}
+            ]
+        },
+        {
+            "profile-name": "cr-10-mini-ezabl",
+            "keyword": 
+            [
+                {"find":"//#define CR10_MINI","replace":"#define CR10_MINI"},
+                {"find":"//#define CR10_OEM","replace":"#define CR10_OEM"}
+            ]
+        },
+        {
+            "profile-name": "cr-10-mini-ezabl-onservo",
+            "keyword": 
+            [
+                {"find":"//#define CR10_MINI","replace":"#define CR10_MINI"},
+                {"find":"//#define CR10_OEM","replace":"#define CR10_OEM"},
+				{"find":"//#define V3_EZABL_ON_SERVO","replace":"#define V3_EZABL_ON_SERVO"}
+            ]
+        },
+		{
+            "profile-name": "cr-10-s4",
+            "keyword": 
+            [
+               {"find":"//#define CR10_S4","replace":"#define CR10_S4"}
+            ]
+        },
+        {
+            "profile-name": "cr-10-s4-ezabl",
+            "keyword": 
+            [
+                {"find":"//#define CR10_S4","replace":"#define CR10_S4"},
+                {"find":"//#define CR10_OEM","replace":"#define CR10_OEM"}
+            ]
+        },
+        {
+            "profile-name": "cr-10-s4-ezabl-onservo",
+            "keyword": 
+            [
+                {"find":"//#define CR10_S4","replace":"#define CR10_S4"},
+                {"find":"//#define CR10_OEM","replace":"#define CR10_OEM"},
+				{"find":"//#define V3_EZABL_ON_SERVO","replace":"#define V3_EZABL_ON_SERVO"}
             ]
         }
     ]
