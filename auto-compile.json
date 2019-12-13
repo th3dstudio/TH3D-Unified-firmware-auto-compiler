@@ -243,6 +243,33 @@
             ]
         },
 		{
+            "profile-name": "ender5-newleadscrew",
+            "keyword": 
+            [
+                {"find":"//#define ENDER5","replace":"#define ENDER5"},
+                {"find":"//#define ENDER5_NEW_LEADSCREW","replace":"#define ENDER5_NEW_LEADSCREW"}
+            ]
+        },
+        {
+            "profile-name": "ender5-ezabl-newleadscrew",
+            "keyword": 
+            [
+                {"find":"//#define ENDER5","replace":"#define ENDER5"},
+                {"find":"//#define CR10_OEM","replace":"#define CR10_OEM"},
+                {"find":"//#define ENDER5_NEW_LEADSCREW","replace":"#define ENDER5_NEW_LEADSCREW"}
+            ]
+        },
+        {
+            "profile-name": "ender5-ezabl-onservo-newleadscrew",
+            "keyword": 
+            [
+                {"find":"//#define ENDER5","replace":"#define ENDER5"},
+                {"find":"//#define CR10_OEM","replace":"#define CR10_OEM"},
+				{"find":"//#define V3_EZABL_ON_SERVO","replace":"#define V3_EZABL_ON_SERVO"},
+                {"find":"//#define ENDER5_NEW_LEADSCREW","replace":"#define ENDER5_NEW_LEADSCREW"}
+            ]
+        },
+		{
             "profile-name": "sv01",
             "keyword": 
             [
