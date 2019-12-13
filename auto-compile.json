@@ -254,7 +254,7 @@
             "keyword": 
             [
                 {"find":"//#define SOVOL_SV01","replace":"#define SOVOL_SV01"},
-                {"find":"//#define SV01_OEM_MOUNT","replace":"#define SV01_OEM_MOUNT"}
+                {"find":"//#define SV01_OEM_MOUNT //Sovol SV01 OEM Mount","replace":"#define SV01_OEM_MOUNT //Sovol SV01 OEM Mount"}
             ]
         },
         {
@@ -262,7 +262,7 @@
             "keyword": 
             [
                 {"find":"//#define SOVOL_SV01","replace":"#define SOVOL_SV01"},
-                {"find":"//#define SV01_OEM_MOUNT","replace":"#define SV01_OEM_MOUNT"},
+                {"find":"//#define SV01_OEM_MOUNT //Sovol SV01 OEM Mount","replace":"#define SV01_OEM_MOUNT //Sovol SV01 OEM Mount"},
 				{"find":"//#define V3_EZABL_ON_SERVO","replace":"#define V3_EZABL_ON_SERVO"}
             ]
         }
