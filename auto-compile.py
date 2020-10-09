@@ -93,7 +93,7 @@ try:
            
             # overwrite the default config file 
             if saveFile(MARLIN_PATH+configFile,tmpConfigFileData):
-                print("Saved OK!\nCompilling...")
+                print("Saved OK!\nCompiling...")
                 #execute build command
                 os.system("platformio run -e "+ENVI_NAME)
                 #make folder for the binary file
