@@ -366,6 +366,30 @@
                 {"find":"//#define CR10_OEM","replace":"#define CR10_OEM"},
 				{"find":"//#define V3_EZABL_ON_SERVO","replace":"#define V3_EZABL_ON_SERVO"}
             ]
+        },
+		{
+            "profile-name": "ender3max",
+            "keyword": 
+            [
+                {"find":"//#define ENDER3_MAX","replace":"#define ENDER3_MAX"}
+            ]
+        },
+        {
+            "profile-name": "ender3max-ezabl",
+            "keyword": 
+            [
+                {"find":"//#define ENDER3_MAX","replace":"#define ENDER3_MAX"},
+                {"find":"//#define ENDER3_MAX_OEM","replace":"#define ENDER3_MAX_OEM"}
+            ]
+        },
+        {
+            "profile-name": "ender3max-ezabl-onservo",
+            "keyword": 
+            [
+                {"find":"//#define ENDER3_MAX","replace":"#define ENDER3_MAX"},
+                {"find":"//#define ENDER3_MAX_OEM","replace":"#define ENDER3_MAX_OEM"},
+				{"find":"//#define V3_EZABL_ON_SERVO","replace":"#define V3_EZABL_ON_SERVO"}
+            ]
         }
     ]
 }
